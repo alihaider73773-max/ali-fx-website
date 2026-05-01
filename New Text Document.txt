@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ali FX Premium</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0a0f2c, #000);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0,0,0,0.6);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: gold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: gold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: gold;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    margin: 15px;
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">Ali FX</div>
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Ali Forex Trading</h1>
+<p>Premium Signals | Smart Trading | High Profit Strategy</p>
+<a href="https://wa.me/923116213896" class="btn">Join WhatsApp</a>
+</section>
+
+<section class="section">
+<h2>Our Premium Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📊 VIP Signals</h3>
+<p>High accuracy signals with expert analysis.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Trading Course</h3>
+<p>Learn Forex step by step like a pro trader.</p>
+</div>
+
+<div class="card">
+<h3>💰 Account Management</h3>
+<p>Grow your investment with our experts.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Contact</h2>
+<p>Name: Ali</p>
+<p>Phone: 03116213896</p>
+</section>
+
+<footer>
+© 2026 Ali FX Premium | All Rights Reserved
+</footer>
+
+</body>
+</html>
